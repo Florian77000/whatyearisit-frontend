@@ -1,4 +1,4 @@
-fetch("https://verceldemo-backend.vercel.app/year")
+fetch("https://whatyearisit-backend-beige-alpha.vercel.app/")
   .then((response) => response.json())
   .then((data) => {
     document.querySelector("#year").textContent = data.year;
